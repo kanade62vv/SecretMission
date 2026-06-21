@@ -1,0 +1,33 @@
+body{
+    background:black;
+    color:#00ff00;
+    font-family:monospace;
+    text-align:center;
+    padding-top:100px;
+}
+
+input{
+    background:black;
+    color:#00ff00;
+    border:2px solid #00ff00;
+    padding:10px;
+    font-size:20px;
+}
+button{
+    background:#222;
+    color:#00ff00;
+    border:2px solid #00ff00;
+    padding:10px 20px;
+    font-size:20px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#00ff00;
+    color:black;
+}
+
+#result{
+    margin-top:40px;
+    font-size:24px;
+}
