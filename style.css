@@ -1,33 +1,140 @@
-body{
-    background:black;
-    color:#00ff00;
-    font-family:monospace;
-    text-align:center;
-    padding-top:100px;
+body {
+    background: black;
+    color: #00ff00;
+    font-family: monospace;
+    text-align: center;
+    margin: 0;
+    padding: 30px 15px;
 }
 
-input{
-    background:black;
-    color:#00ff00;
-    border:2px solid #00ff00;
-    padding:10px;
-    font-size:20px;
-}
-button{
-    background:#222;
-    color:#00ff00;
-    border:2px solid #00ff00;
-    padding:10px 20px;
-    font-size:20px;
-    cursor:pointer;
+h1 {
+    font-size: 2rem;
 }
 
-button:hover{
-    background:#00ff00;
-    color:black;
+p {
+    font-size: 1.1rem;
 }
 
-#result{
-    margin-top:40px;
-    font-size:24px;
+input {
+    width: 90%;
+    max-width: 350px;
+    padding: 15px;
+    font-size: 20px;
+    background: black;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+}
+
+button {
+    width: 90%;
+    max-width: 350px;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 20px;
+    background: #222;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00ff00;
+    color: black;
+}
+
+#result {
+    margin-top: 40px;
+    font-size: 1.3rem;
+}
+body {
+    background: black;
+    color: #00ff00;
+    font-family: monospace;
+    text-align: center;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+input {
+    width: 90%;
+    max-width: 350px;
+    padding: 15px;
+    font-size: 20px;
+    background: black;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+}
+
+button {
+    width: 90%;
+    max-width: 350px;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 20px;
+    background: #222;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00ff00;
+    color: black;
+}
+
+#result {
+    margin-top: 40px;
+    font-size: 1.3rem;
+}
+.hint-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 40px 0;
+}
+
+.hint {
+    width: 70px;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    font-weight: bold;
+
+    border-radius: 10px;
+    border: 3px solid white;
+
+    color: white;
+}
+
+.yellow {
+    background: #ffd400;
+    color: black;
+}
+
+.green {
+    background: #00b050;
+}
+
+.red {
+    background: #e60012;
+}
+
+h3{
+    font-size: 40px;
 }
